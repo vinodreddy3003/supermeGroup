@@ -15,13 +15,14 @@ const itemStyle = {
 
 const Links = () => {
   return (
-    <Stack direction="row" gap={15} >
+    <Stack direction="row" gap={15}>
       <Stack gap={2.5}>
         <Typography sx={sectionTitleStyle}>APPLICATION</Typography>
         <Stack gap={1.5}>
           <Typography sx={itemStyle}>Apparel</Typography>
           <Typography sx={itemStyle}>Automotive</Typography>
           <Typography sx={itemStyle}>Filtration</Typography>
+          <Typography sx={itemStyle}>Customised Solutions</Typography>
         </Stack>
       </Stack>
 
@@ -29,6 +30,7 @@ const Links = () => {
         <Typography sx={sectionTitleStyle}>COMPANY</Typography>
         <Stack gap={1.5}>
           <Typography sx={itemStyle}>Innovation</Typography>
+          <Typography sx={itemStyle}>Global Competency</Typography>
           <Typography sx={itemStyle}>About Us</Typography>
           <Typography sx={itemStyle}>Contact Us</Typography>
         </Stack>
@@ -38,12 +40,13 @@ const Links = () => {
         <Typography sx={sectionTitleStyle}>MORE</Typography>
         <Stack gap={1.5}>
           <Typography sx={itemStyle}>Careers</Typography>
-          
+          <Typography sx={itemStyle}>Privacy Policy</Typography>
+          <Typography sx={itemStyle}>Terms and Conditions</Typography>
         </Stack>
       </Stack>
 
       <Stack gap={2.5}>
-        <Typography sx={sectionTitleStyle}>FOLLOWUS</Typography>
+        <Typography sx={sectionTitleStyle}>FOLLOW US</Typography>
         <Stack gap={1.5}>
           <Typography sx={itemStyle}>Twitter</Typography>
           <Typography sx={itemStyle}>LinkedIn</Typography>

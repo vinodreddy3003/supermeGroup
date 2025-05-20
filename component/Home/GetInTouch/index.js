@@ -9,7 +9,7 @@ const index = () => {
       <Stack
         direction="row"
         gap={20}
-        sx={{ padding: "206px 280px" }}
+        sx={{ padding: "206px 240px" }}
         alignItems="center"
         justifyContent="space-between"
       >
