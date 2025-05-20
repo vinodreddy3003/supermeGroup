@@ -7,7 +7,7 @@ export default function ContactForm() {
         borderRadius: "8px",
         maxWidth: "500px",
         color: "#fff",
-        gap: 2,
+        gap: 1,
       }}
     >
       <form>

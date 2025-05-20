@@ -40,7 +40,7 @@ const index = () => {
         </Typography>
         <Typography
           sx={{
-            fontSize: "20px",
+            fontSize: "16px",
             fontWeight: 400,
             fontFamily: "Manrope",
             color: "#FFFFFF",
@@ -53,7 +53,7 @@ const index = () => {
       <Stack>
         <Typography
           sx={{
-            fontSize: "20px",
+            fontSize: "16px",
             fontWeight: 600,
             fontFamily: "Manrope",
             color: "#FFFFFF",
@@ -63,7 +63,7 @@ const index = () => {
         </Typography>
         <Typography
           sx={{
-            fontSize: "20px",
+            fontSize: "16px",
             fontWeight: 400,
             fontFamily: "Manrope",
             color: "#FFFFFF",

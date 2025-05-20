@@ -24,14 +24,25 @@ export default function VehiclePage() {
       >
         <Typography
           sx={{
-            fontSize: "48px",
+            fontSize: "34px",
             fontWeight: 300,
             alignItems: "center",
             fontFamily: "Manrope",
           }}
         >
           {" "}
-          Evolving the drive with <strong>360-degree</strong> nonwoven solutions
+          Evolving the drive with <strong>360-degree</strong>
+        </Typography>
+        <Typography
+          sx={{
+            fontSize: "34px",
+            fontWeight: 300,
+            alignItems: "center",
+            fontFamily: "Manrope",
+          }}
+        >
+          {" "}
+          nonwoven solutions
         </Typography>
       </Stack>
 
@@ -72,7 +83,7 @@ export default function VehiclePage() {
         alignItems="flex-end"
         gap={4}
         sx={{
-          padding: "0px 200px",
+          padding: "0px 150px",
           marginBottom: "64px",
         }}
       >
@@ -96,11 +107,7 @@ export default function VehiclePage() {
           sx={{ cursor: "pointer" }}
         >
           <Stack>
-            <Image
-              src="/Home/VehiclePage/Front.png"
-              width={70}
-              height={70}
-            />
+            <Image src="/Home/VehiclePage/Front.png" width={70} height={70} />
             <Typography variant="caption">Front</Typography>
           </Stack>
         </Box>
@@ -110,11 +117,7 @@ export default function VehiclePage() {
           sx={{ cursor: "pointer" }}
         >
           <Stack>
-            <Image
-              src="/Home/VehiclePage/Cabin.png"
-              width={70}
-              height={70}
-            />
+            <Image src="/Home/VehiclePage/Cabin.png" width={70} height={70} />
             <Typography variant="caption">Cabin</Typography>
           </Stack>
         </Box>
@@ -124,11 +127,7 @@ export default function VehiclePage() {
           sx={{ cursor: "pointer" }}
         >
           <Stack>
-            <Image
-              src="/Home/VehiclePage/Trunk.png"
-              width={70}
-              height={70}
-            />
+            <Image src="/Home/VehiclePage/Trunk.png" width={70} height={70} />
             <Typography variant="caption">Trunk</Typography>
           </Stack>
         </Box>

@@ -22,13 +22,25 @@ const index = () => {
         </Typography>
         <Typography
           sx={{
-            fontSize: "48px",
+            fontSize: "34px",
             fontWeight: 600,
             fontFamily: "Manrope",
             color: "#FFFFFF",
+            alignItems: "center",
           }}
         >
-          Soft Trims and NVH Solutions for seamless rides
+          Soft Trims and NVH Solutions
+        </Typography>
+         <Typography
+          sx={{
+            fontSize: "34px",
+            fontWeight: 400,
+            fontFamily: "Manrope",
+            color: "#FFFFFF",
+            alignItems: "center",
+          }}
+        >
+          for seamless rides
         </Typography>
       </Stack>
     </Stack>

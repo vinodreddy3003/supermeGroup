@@ -14,7 +14,7 @@ const index = () => {
           alt="Logo"
         />
         <Link />
-        <Stack direction="row" justifyContent="space-between">
+        <Stack direction="row" justifyContent="space-between" alignItems="space-between">
           <Typography
             sx={{ fontSize: "14px", color: "#000000B2", fontWeight: 500 }}
           >
